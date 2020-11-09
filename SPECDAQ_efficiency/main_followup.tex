@@ -1,0 +1,84 @@
+%Title: Fus. evap results for U and Th isotopes
+%Author: A. Raggio
+%Year: 2020
+
+\documentclass[10pt]{beamer}
+
+\input{settings}
+
+%-----------------------------------------Title page settings-----------------------------------------%
+\title{\normalsize I262 Setup Detection Efficiency}
+
+\institute{}
+
+\author{}
+
+%\author{%
+%\begin{columns}
+%\column{.48\textwidth}%
+%Candidate:
+%Andrea Raggio.
+%\hfill%
+%\column{.48\textwidth}%
+%Supervisor:
+%Daniele Mengoni
+%\end{columns}
+%}
+
+\date{}
+\titlegraphic{% 
+\vspace{0.05\textheight}
+	\centering
+	\includegraphics[height=3cm]{jyu-keskitetty-kaksikielinen.eps}\\
+\vspace{-0.03\textheight}
+}
+%-----------------------------------------Title page settings-----------------------------------------%
+
+
+\setbeamertemplate{footline}
+{
+ \begin{beamercolorbox}{section in head/foot}
+ \vskip2pt\hspace{0.095cm} Andrea Raggio \hfill Jyv\"{a}skyl\"{a} - November 2020 \hspace{0.15cm}\phantom{x}\vskip2pt
+ \end{beamercolorbox}%
+}
+
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{BEGE Efficiency}
+	
+	\includegraphics[width=\textwidth]{BEGE_final.pdf}
+	\small
+	\textcolor{red}{Gray 80–1850 keV \hfill  Hurtado 36–1500 keV}
+
+\end{frame}
+
+
+\begin{frame}{Si Efficiency}
+	\vspace{-0.1\textheight}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{overlayarea}{\textwidth}{0.5\textheight}
+				\centering
+				\textbf{QuadSi1}
+				\vspace{-0.05\textheight}
+				\includegraphics[width=0.95\textwidth]{QuadSi1.pdf}
+			\end{overlayarea}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{overlayarea}{\textwidth}{0.5\textheight}
+				\centering
+				\textbf{QuadSi2}
+				\vspace{-0.05\textheight}
+				\includegraphics[width=0.95\textwidth]{QuadSi2.pdf}
+			\end{overlayarea}
+		\end{column}
+	\end{columns}	
+	\centering
+	\textbf{Si(Li) + CircSi}\\
+	\includegraphics[width=0.4\textwidth]{SiLi_CircSi.pdf}
+
+\end{frame}
+
+\end{document}
