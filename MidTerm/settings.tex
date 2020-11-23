@@ -1,0 +1,107 @@
+%
+%Setting file
+%
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage[english]{babel}
+
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usetheme{default}
+\usefonttheme{structurebold}
+
+
+% ---------------------------------
+% color definitions
+\usepackage{color}
+% \definecolor{LISA_BLUE}{rgb}{0.25,0.33,0.66}
+\definecolor{LISA_BLUE}{cmyk}{0.99,0.88,0.29,0.18}
+
+\setbeamercolor{normal text}{fg=LISA_BLUE}
+\setbeamercolor{frametitle}{fg=LISA_BLUE}
+
+\newcommand\insertlocation{}  % Empty by default.
+\newcommand\location[1]{\renewcommand\insertlocation{#1}}
+
+\newcommand\insertperiod{}  % Empty by default.
+\newcommand\period[1]{\renewcommand\insertperiod{#1}}
+
+
+
+\setbeamertemplate{itemize items}[circle]
+\setbeamercolor{title}{fg=white}
+
+\setbeamertemplate{title page}
+{
+    \begin{minipage}[c]{0.7\textwidth}
+         
+      \vspace{-0.1\textheight}      
+
+      \usebeamerfont{title}\textcolor{white}{\inserttitle}%
+      \ifx\insertsubtitle\@empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%     
+
+      \vspace{0.2\textheight}      
+      \usebeamerfont{author}\textcolor{white}{\insertauthor}
+      \vskip0.25em%
+      \usebeamerfont{institute}\textcolor{white}{\insertinstitute}
+
+  \end{minipage}
+  
+}
+
+
+\useoutertheme{smoothbars} 
+\setbeamertemplate{footline}[frame number]{}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{}
+
+
+
+% \setbeamertemplate{frametitle}
+% {
+%     \nointerlineskip
+%     \begin{beamercolorbox}[sep=0.35cm,ht=2em,wd=\paperwidth]{frametitle}
+		    
+%         \centering
+%         \insertframetitle
+%     \end{beamercolorbox}
+% }
+
+\usebackgroundtemplate%
+{%
+    \includegraphics[width=\paperwidth,height=\paperheight]{Slide.pdf}%
+}
+
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{tikzpicture}[remember picture,overlay]
+% \node[anchor=north west,yshift=-22pt,xshift=-2pt] at (current page.north west) {\includegraphics[height=.09\textheight]{jy-suomi-keskitetty-aariviiva.eps}};
+% \end{tikzpicture}}
+
+\setbeamertemplate{footline}
+{
+ \begin{beamercolorbox}[wd=0.91\paperwidth, ht=0.1ex, dp=10pt,leftskip=2cm,rightskip=.3cm]{section in head/foot}
+ \hspace{0.095cm}\textcolor{LISA_BLUE}{\insertauthor \hfill  \insertframenumber \hfill \insertlocation~-~\insertperiod}\phantom{x}\vskip2pt
+ \end{beamercolorbox}%
+}
+
+\makeatletter
+\setbeamertemplate{frametitle}{
+    \vspace{-0.05\textheight}
+    \begin{beamercolorbox}[center]{frametitle}
+        \usebeamerfont{frametitle}\insertframetitle%
+    \end{beamercolorbox}%
+}
+\makeatother
+% \beamertemplatenavigationsymbolsempty
+% \setbeamercovered{transparent}
