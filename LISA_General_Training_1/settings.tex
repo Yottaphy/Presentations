@@ -1,0 +1,40 @@
+%
+%Setting file
+%
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage[english]{babel}
+
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usetheme{default}
+\usefonttheme{structurebold}
+
+
+% ---------------------------------
+% color definitions
+\usepackage{color}
+% \definecolor{LISA_BLUE}{rgb}{0.25,0.33,0.66}
+\definecolor{LISA_BLUE}{cmyk}{0.99,0.88,0.29,0.18}
+
+\setbeamercolor{normal text}{fg=LISA_BLUE}
+\setbeamercolor{frametitle}{fg=LISA_BLUE}
+
+\newcommand\insertlocation{}  % Empty by default.
+\newcommand\location[1]{\renewcommand\insertlocation{#1}}
+
+\newcommand\insertperiod{}  % Empty by default.
+\newcommand\period[1]{\renewcommand\insertperiod{#1}}
+
+
+
+\setbeamertemplate{itemize items}[circle]
+\setbeamercolor{title}{fg=white}
+
