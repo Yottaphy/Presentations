@@ -1,0 +1,168 @@
+%Title: Fus. evap results for U and Th isotopes
+%Author: A. Raggio
+%Year: 2020
+
+\documentclass[10pt]{beamer}
+
+\input{settings}
+
+%-----------------------------------------Title page settings-----------------------------------------%
+\title{\normalsize }
+
+\institute{}
+
+\author{}
+
+%\author{%
+%\begin{columns}
+%\column{.48\textwidth}%
+%Candidate:
+%Andrea Raggio.
+%\hfill%
+%\column{.48\textwidth}%
+%Supervisor:
+%Daniele Mengoni
+%\end{columns}
+%}
+
+\date{}
+\titlegraphic{% 
+\vspace{0.05\textheight}
+	\centering
+	\includegraphics[height=3cm]{jyu-keskitetty-kaksikielinen.eps}\\
+\vspace{-0.03\textheight}
+}
+%-----------------------------------------Title page settings-----------------------------------------%
+
+
+\setbeamertemplate{footline}
+{
+ \begin{beamercolorbox}{section in head/foot}
+ \vskip2pt\hspace{0.095cm} Andrea Raggio \hfill Jyv\"{a}skyl\"{a} - December 2020 \hspace{0.15cm}\phantom{x}\vskip2pt
+ \end{beamercolorbox}%
+}
+
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Calibration Run}
+	
+	
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{overlayarea}{\textwidth}{0.5\textheight}
+				\centering
+				\textcolor{red}{\textbf{MASS 226 - Run 243}}
+				%\vspace{-0.05\textheight}
+				\begin{itemize}
+					\item 18.37 $\rightarrow$ 23.29 \\ $\sim$ 4h.50m
+					\item Beam Gate 5400s - 25 \% off. \\ 67.5~m beam/cycle
+				\end{itemize}
+			\end{overlayarea}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{overlayarea}{\textwidth}{0.5\textheight}
+				\centering
+				\vspace{-0.05\textheight}
+				\includegraphics[width=0.95\textwidth]{chart_cali.pdf}
+			\end{overlayarea}
+		\end{column}
+	\end{columns}	
+
+
+
+\end{frame}
+
+\begin{frame}{Peak Fitting}
+	
+	\vspace{-0.1\textheight}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{overlayarea}{\textwidth}{0.5\textheight}
+				\centering
+				\vspace{-0.05\textheight}
+				\includegraphics[width=0.95\textwidth]{Circ_Si_full.pdf}
+				\includegraphics[width=0.95\textwidth]{Circ_Si_top.pdf}
+			\end{overlayarea}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{overlayarea}{\textwidth}{0.5\textheight}
+				\centering
+				\vspace{-0.05\textheight}
+				\includegraphics[width=0.95\textwidth]{SiLi_full.pdf}
+				\includegraphics[width=0.95\textwidth]{SiLi_top.pdf}
+			\end{overlayarea}
+		\end{column}
+	\end{columns}	
+
+
+
+\end{frame}
+
+\begin{frame}{Calibration Fitting}
+	
+
+	\centering
+	\vspace{-0.05\textheight}
+	\textbf{Two Fitting methods $\rightarrow$ Pol1 - Pol2}  
+	\includegraphics[width=0.85\textwidth]{Chi_comparison.pdf}
+
+
+
+
+\end{frame}
+
+\begin{frame}{Calibration Fitting}
+	
+	\vspace{-0.2\textheight}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{overlayarea}{\textwidth}{0.5\textheight}
+				\centering
+				\vspace{-0.05\textheight}
+				\tiny Pol1 Fit\\
+				\includegraphics[width=0.85\textwidth]{CircSi_fitting1_LinearCal.png}\\
+				Pol2 Fit\\
+				\includegraphics[width=0.85\textwidth]{CircSi_fitting1_Pol2Cal.png}
+			\end{overlayarea}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{overlayarea}{\textwidth}{0.5\textheight}
+				\centering
+				\vspace{-0.05\textheight}
+				\tiny Pol1 Fit\\
+				\includegraphics[width=0.85\textwidth]{Si(Li)_fitting1_LinearCal.png}\\
+				Pol2 Fit\\
+				\includegraphics[width=0.85\textwidth]{Si(Li)_fitting1_Pol2Cal.png}
+			\end{overlayarea}
+		\end{column}
+	\end{columns}	
+
+
+\end{frame}
+
+
+\begin{frame}{Low Energy Problem?}
+	\centering
+	\vspace{-0.2\textheight}
+	Inside the energy range 6000 keV - 9000 keV\\ the two calibration are in good agreement.\\
+	\vspace{0.1\textheight}
+	\textbf{LOW ENERGY?}\\
+	Event at 214~ch. in SiLi detector $\rightarrow$ $\sim$253~keV (Pol1) - $\sim$621~keV (Pol2)
+
+\end{frame}
+
+\begin{frame}{Event Builder}
+	\centering
+	\vspace{-0.2\textheight}
+	
+	\only<1>{\includegraphics[width=0.85\textwidth]{Event_0.pdf}}%
+	\only<2>{\includegraphics[width=0.85\textwidth]{Event_1.pdf}}%
+	\only<3>{\includegraphics[width=0.85\textwidth]{Event_2.pdf}}%
+
+	\vspace{0.1\textheight}
+	\textbf{E1 is the trigger}
+\end{frame}
+
+\end{document}
