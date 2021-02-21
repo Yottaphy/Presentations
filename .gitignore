@@ -9,6 +9,7 @@ data/
 *.d
 *.so
 *.swp
+*code-workspace
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
