@@ -31,6 +31,9 @@
 \newcommand\insertlocation{}  % Empty by default.
 \newcommand\location[1]{\renewcommand\insertlocation{#1}}
 
+\newcommand\insertcoauthor{}  % Empty by default.
+\newcommand\coauthor[1]{\renewcommand\insertcoauthor{#1}}
+
 \newcommand\insertperiod{}  % Empty by default.
 \newcommand\period[1]{\renewcommand\insertperiod{#1}}
 
@@ -41,7 +44,7 @@
 
 \setbeamertemplate{title page}
 {
-	\begin{textblock*}{0.4\paperwidth}(0.05\paperwidth,0.25\paperheight)
+	\begin{textblock*}{0.7\paperwidth}(0.03\paperwidth,0.25\paperheight)
          
 
       \usebeamerfont{title}\textcolor{white}{\inserttitle}%
@@ -53,7 +56,7 @@
 
       \vspace{0.1\textheight}      
       \usebeamerfont{author}\textcolor{white}{\insertauthor}
-      \vskip0.25em%
+      \vskip1em%
       \usebeamerfont{institute}\textcolor{white}{\insertinstitute}
 
   \end{textblock*}
@@ -92,7 +95,7 @@
 \setbeamertemplate{footline}
 {
  \begin{beamercolorbox}[wd=\paperwidth, ht=0.05\paperheight, dp=5.2pt,leftskip=2cm,rightskip=.3cm]{section in head/foot}
- \hspace{0.095cm}\textcolor{white}{\insertauthor~-~\insertdate \hfill  \insertframenumber}\phantom{x}\vskip2pt
+ \hspace{0.095cm}\textcolor{white}{\insertdate \hfill  \insertframenumber}\phantom{x}\vskip2pt
  \end{beamercolorbox}%
 }
 
