@@ -98,6 +98,16 @@
  \begin{beamercolorbox}[wd=\paperwidth, ht=0.05\paperheight, dp=5.2pt,leftskip=2cm,rightskip=.3cm]{section in head/foot}
  \hspace{0.095cm}\textcolor{white}{\insertdate \hfill  \insertframenumber}\phantom{x}\vskip2pt
  \end{beamercolorbox}%
+ \ifnum \theframenumber=0
+        % This is the title frame, do nothing
+
+    \else
+        % These would be all the following frames
+        % <<<Your template code goes here>>>
+        \begin{textblock*}{0.3\paperwidth}(0.13\paperwidth,0.975\paperheight)
+           \textcolor{white}{\insertlocation{}}
+       \end{textblock*}
+    \fi
 }
 
 \makeatletter
