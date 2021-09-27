@@ -18,6 +18,18 @@
   <defs
      id="defs4486">
     <rect
+       x="6.0887337"
+       y="1052.8916"
+       width="179.83689"
+       height="60.881073"
+       id="rect29362" />
+    <rect
+       x="162.43305"
+       y="636.16201"
+       width="232.61218"
+       height="67.379064"
+       id="rect15189" />
+    <rect
        x="718.22266"
        y="173.44382"
        width="72.506462"
@@ -9410,9 +9422,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35000001"
-     inkscape:cx="1412.9103"
-     inkscape:cy="2006.1015"
+     inkscape:zoom="0.49497476"
+     inkscape:cx="923.96348"
+     inkscape:cy="2241.1763"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      inkscape:document-rotation="0"
@@ -10238,19 +10250,7 @@
        transform="translate(-9.4229216,145.36192)"><tspan
          x="182.5625"
          y="502.03952"><tspan
-           style="font-size:12.7px;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">- Alpha spectrometry
-</tspan></tspan><tspan
-         x="182.5625"
-         y="517.91452"><tspan
-           style="font-size:12.7px;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">- Gamma spectrometry
-</tspan></tspan><tspan
-         x="182.5625"
-         y="533.78952"><tspan
-           style="font-size:12.7px;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">- Rutherford Back Sscattering
-</tspan></tspan><tspan
-         x="182.5625"
-         y="549.66452"><tspan
-           style="font-size:12.7px;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">- TOF-Elastic Recoil Detection Analysis </tspan></tspan></text>
+           style="font-size:12.7px;text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round"> </tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14.1111px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-width:0.264583"
@@ -12235,7 +12235,9 @@
          x="375.53586"
          y="527.00891"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Bold';text-align:center;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">Fig. 6:</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"> 235-U hyperfine structure of the 305.02 nm transition</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round"> </tspan><tspan
+           style="font-size:65%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round">235</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">U hyperfine structure of the 305.02 nm transition</tspan><tspan
            style="stroke-linecap:butt;stroke-linejoin:round"></tspan><tspan
            y="527.00891"> </tspan></tspan></text>
     <g
@@ -31369,18 +31371,7 @@
        xml:space="preserve"
        id="text136509"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect136511);stroke-linecap:butt;stroke-linejoin:round;"
-       transform="translate(-176.74176,32.518054)"><tspan
-         x="185.58015"
-         y="1038.059"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;stroke-linecap:butt;stroke-linejoin:round">Joliot Curie International school
-</tspan></tspan><tspan
-         x="195.27026"
-         y="1053.934"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;stroke-linecap:butt;stroke-linejoin:round">Saint Pierre D'oleron, France
-</tspan></tspan><tspan
-         x="223.00696"
-         y="1069.809"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;stroke-linecap:butt;stroke-linejoin:round">October 3-8, 2021</tspan></tspan></text>
+       transform="translate(-176.74176,32.518054)" />
     <g
        id="g8358"
        transform="translate(0,10.583333)">
@@ -31642,12 +31633,20 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">study of the second lowest lying isomeric state in the nuclear landscape, </tspan></tspan><tspan
          x="11.238281"
          y="365.686"><tspan
-           dx="0 0 0 0 0 0.74801278 0 0 0.74801469 0 0 0 0.74801469 0 0 0 0 0 0.7480185 0 0 0 0 0 0 0.74802613 0 0 0.74801087 0 0 0 0 0 0 0.74801087 0.74802613 0 0 0 0.74802613 0 0 0 0 0 0.74802613 0 0 0.74801087 0 0 0 0 0 0 0 0 0 0.74801087 0 0 0 0 0 0 0 0 0.74801087 0 0 0 0 0.74801087"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">that of the 76-eV isomer in 235-U.  The state is populated directly with a </tspan></tspan><tspan
+           dx="0 0 0 0 0 1.6152403 0 0 1.6152403 0 0 0 1.6152403 0 0 0 0 0 1.6152442 0 0 0 0 0 0 1.6152442"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">that of the 76-eV isomer in </tspan><tspan
+           dx="1.6152289"
+           style="font-size:65%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round">235</tspan><tspan
+           dx="0 0 0 1.6152442 1.6152289 0 0 0 1.6152442 0 0 0 0 0 1.6152289 0 0 1.6152289 0 0 0 0 0 0 0 0 0 1.6152136 0 0 0 0 0 0 0 0 1.6152442 0 0 0 0 1.6152289"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">U.  The state is populated directly with a </tspan></tspan><tspan
          x="11.238281"
          y="381.561"><tspan
-           dx="0 0 0 0 1.3223326 0 0 0 0 0 0 0 0 0 1.3223288 0 0 0 0 0 1.3223364 0 0 1.3223212 0 0 0 1.3223364 0 0 0 0 0 0 1.3223364 0 0 0 0 0 1.3223364 0 0 0 0 0 1.3223212 0 0 0 1.3223517 0 0 0 1.3223212 0 1.3223212 0 0 0 0 0 0 0 0 1.3223517 0 0 1.3223212"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">71% branching ratio by the 239-Pu alpha decay and has a lifetime of 26 </tspan></tspan><tspan
+           dx="0 0 0 0 2.2562697 0 0 0 0 0 0 0 0 0 2.2562659 0 0 0 0 0 2.2562735 0 0 2.2562659"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">71% branching ratio by the </tspan><tspan
+           dx="2.2562659"
+           style="font-size:65%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round">239</tspan><tspan
+           dx="0 0 0 2.2562659 0 0 0 0 0 2.2562659 0 0 0 0 0 2.2562659 0 0 0 2.2562659 0 0 0 2.2562811 0 2.2562811 0 0 0 0 0 0 0 0 2.2562506 0 0 2.2562659"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">Pu alpha decay and has a lifetime of 26 </tspan></tspan><tspan
          x="11.238281"
          y="397.436"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">minutes.</tspan></tspan></text>
@@ -31664,12 +31663,16 @@
        transform="translate(0,17.991667)"><tspan
          x="10.509766"
          y="409.061"><tspan
-           dx="0 0 0 2.6873457 0 0 0 0 0 0 0 0 2.6873496 0 0 2.6873496 0 0 0 0 0 0 0 0 2.6873419 0 0 0 0 2.6873419 0 2.6873419 0 0 0 2.6873419 0 0 2.6873419 0 0 2.6873419 0 0 0 0 0 0 0 0 0 2.6873419 0 0 0 0 0 0 0 0 0 2.6873419"
-           style="text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">To generate an isomeric beam a set of 27 molecular plated[1] 239-Pu </tspan></tspan><tspan
+           dx="0 0 0 0.50763535 0 0 0 0 0 0 0 0 0.50763917 0 0 0.50763917 0 0 0 0 0 0 0 0 0.50762391 0 0 0 0 0.50763917 0 0.50762391 0 0 0 0.50763917 0 0 0.50763917 0 0 0.50763917 0 0 0 0 0 0 0 0 0 0.50762391 0 0 0 0 0 0 0.50762391"
+           style="text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">To generate an isomeric beam a set of 27 molecular plated [1] </tspan><tspan
+           dx="0.50762391"
+           style="font-size:65%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round">239</tspan><tspan
+           dx="0 0 0 0.50765443"
+           style="text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">Pu alpha </tspan></tspan><tspan
          x="10.509766"
          y="424.936"><tspan
-           dx="0 0 0 0 0 0 0.91165757 0 0 0 0 0 0 0.91165376 0 0 0 0 0 0 0 0.91166139 0 0 0 0 0.91166139 0 0 0 0 0.91166139 0 0 0 0 0 0 0 0 0.91166139 0 0 0.91166139 0 0 0 0.91167665 0 0 0 0.91164613 0 0 0 0.91164613 0 0 0 0 0 0 0 0 0 0.91167665"
-           style="text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">alpha recoil sources have been produced at JGU and are currently under </tspan></tspan><tspan
+           dx="0 0 0 0 0 0 0 4.2679882 0 0 0 0 0 0 0 4.267992 0 0 0 0 4.2679844 0 0 0 0 4.2679844 0 0 0 0 0 0 0 0 4.2679844 0 0 4.2679844 0 0 0 4.2679996 0 0 0 4.2679996 0 0 0 4.2679996 0 0 0 0 0 0 0 0 0 4.2679996"
+           style="text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">recoil sources have been produced at JGU and are currently under </tspan></tspan><tspan
          x="10.509766"
          y="440.811"><tspan
            style="text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">characterization to select the optimal one in terms of recoil effciency.</tspan></tspan></text>
@@ -31678,10 +31681,12 @@
        id="text8005"
        style="font-size:12.7px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect8007);stroke-linecap:butt;stroke-linejoin:round"
        transform="translate(0,10.583333)"><tspan
-         x="24.441187"
+         x="30.511776"
          y="596.98092"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Bold';stroke-linecap:butt;stroke-linejoin:round">Fig. 1: </tspan><tspan
-           style="stroke-linecap:butt;stroke-linejoin:round">Picture of a 239-Pu  
+           style="stroke-linecap:butt;stroke-linejoin:round">Picture of a </tspan><tspan
+           style="font-size:65%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round">239</tspan><tspan
+           style="stroke-linecap:butt;stroke-linejoin:round">Pu  
 </tspan></tspan><tspan
          x="12.433369"
          y="612.85592"><tspan
@@ -31707,8 +31712,8 @@
        transform="translate(0,10.583333)"><tspan
          x="9.6386719"
          y="724.49459"><tspan
-           dx="0 0 0 0 1.0659239 0 0 0 0 0 0 0 1.0659277 0 0 0 0 1.0659277 0 0 1.0659277 0 0 0 0 1.0659277 0 0 1.0659277 0 0 0 1.0659125 0 0 0 0 0 0 0 0 1.0659277 0 0 0 1.0659277 0 0 0 0 0 0 0 1.0659125 0 0 0 0 0 1.0659125 0 0 0 1.065943 0 0 0 0 0 0 0 1.065943"
-           style="text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">The sources will be used in the actinide Gas Cell[2] where the recoils are </tspan></tspan><tspan
+           dx="0 0 0 0 0.81470895 0 0 0 0 0 0 0 0.81470704 0 0 0 0 0.81470704 0 0 0.81470704 0 0 0 0 0.8147223 0 0 0.81470704 0 0 0 0.81470704 0 0 0 0 0 0 0 0 0.8147223 0 0 0 0.81470704 0 0 0 0 0.81469178 0 0 0 0.81469178 0 0 0 0 0 0.8147223 0 0 0 0.81469178 0 0 0 0 0 0 0 0.8147223"
+           style="text-align:justify;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">The sources will be used in the actinide Gas Cell [2] where the recoils are </tspan></tspan><tspan
          x="9.6386719"
          y="740.36959"><tspan
            dx="0 0 0 0 0 0 0 0 1.1122458 0 0 1.112242 0 1.1122458 0 0 0 0 0 0 1.1122382 0 0 0 1.1122534 0 0 0 0 1.1122382 0 0 0 1.1122382 0 0 0 1.1122382 1.1122534 0 0 0 0 0 0 0 0 0 1.1122687 0 0 0 1.1122382 0 0 0 0 0 0 1.1122687 0 0 1.1122382 0 0 0 1.1122382"
@@ -31724,5 +31729,41 @@
        xml:space="preserve"
        id="text8037"
        style="font-size:12.7px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect8039)" />
+    <text
+       xml:space="preserve"
+       id="text15187"
+       style="font-size:12.7px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;white-space:pre;shape-inside:url(#rect15189);stroke-linecap:butt;stroke-linejoin:round"
+       x="-107.1401"
+       y="0"><tspan
+         x="162.43359"
+         y="647.97311"><tspan
+           style="text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">- Alpha spectrometry
+</tspan></tspan><tspan
+         x="162.43359"
+         y="663.84811"><tspan
+           style="text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">- Gamma spectrometry
+</tspan></tspan><tspan
+         x="162.43359"
+         y="679.72311"><tspan
+           style="text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">- Rutherford Back Scattering
+</tspan></tspan><tspan
+         x="162.43359"
+         y="695.59811"><tspan
+           style="text-align:start;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">- TOF-Elastic Recoil Detection Analysis</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text29360"
+       style="font-size:12.7px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;white-space:pre;shape-inside:url(#rect29362);stroke-linecap:butt;stroke-linejoin:round"><tspan
+         x="7.1133533"
+         y="1064.7016"><tspan
+           style="stroke-linecap:butt;stroke-linejoin:round">Joliot Curie International school
+</tspan></tspan><tspan
+         x="15.120713"
+         y="1080.5766"><tspan
+           style="stroke-linecap:butt;stroke-linejoin:round">Saint Pierre D'Oleron, France
+</tspan></tspan><tspan
+         x="44.540162"
+         y="1096.4516"><tspan
+           style="stroke-linecap:butt;stroke-linejoin:round">October 3-8, 2021</tspan></tspan></text>
   </g>
 </svg>
