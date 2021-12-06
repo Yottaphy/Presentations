@@ -1,0 +1,48 @@
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{afterpage} 
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{lipsum}
+\usepackage{subfig}
+%\usepackage{subcaption}
+\usepackage{mhchem}
+%\geometry{a4paper,top=3cm,bottom=-3 cm,left=3.5cm,right=3.5cm,heightrounded,bindingoffset=5mm}
+\usepackage{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\graphicspath{{Images/}}
+\hypersetup{hidelinks}
+\setlength{\parindent}{0pt}
+\usepackage{listings}
+\usepackage{color}
+\definecolor{backcolour}{rgb}{0.8,0.95,0.95}
+
+\usepackage[sorting=none]{biblatex}
+\usepackage{placeins}
+\addbibresource{bibliography.bib}
+  
+\newcommand{\abs}[1]{\left|#1\right|}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+}
+ 
+\lstset{style=mystyle}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\newcommand\blankpage {%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+	
+\def\tableautorefname{Table}

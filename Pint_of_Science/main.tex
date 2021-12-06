@@ -1,0 +1,246 @@
+%Title: Beamer Presentation Template
+%Author: LISA
+%Year: 2020
+
+\documentclass[10pt,aspectratio=169]{beamer}
+
+\input{settings}
+
+%-----------------------------------------Title page settings-----------------------------------------%
+\title{The Physics Behind Colors}
+\subtitle{}
+\author{Andrea Raggio}
+\institute{19:00 09/12/21\\Tuopillinen Tiedett\"{a} @ Vihre\"{a} Haltiatar}
+% \period{April-2020}
+% \location{Pint of Science}
+
+
+%-----------------------------------------Title page settings-----------------------------------------%
+\usepackage{animate}
+\usepackage{mathtools}
+
+
+\begin{document}
+
+{
+  \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Title.pdf}}
+	\begin{frame}[noframenumbering, plain]
+		\titlepage
+	\end{frame}
+}
+
+\begin{SectionTitle}
+{
+  \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Section_light_off.pdf}}
+	\begin{frame}[noframenumbering, plain]
+		\centering
+		\vspace{0.1\textheight}
+		% \textbf{\LARGE LIGHT}
+	\end{frame}
+}
+{
+  \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Section_light_on.pdf}}
+	\begin{frame}[noframenumbering, plain]
+		\centering
+		\vspace{0.1\textheight}
+		% \textbf{\LARGE LIGHT}
+		\vspace{0.1\textheight}
+		% \textbf{\LARGE LIGHT}
+	\end{frame}
+}
+\end{SectionTitle}
+\begin{frame}{What is light}
+	\begin{textblock*}{0.9\paperwidth}(0.05\paperwidth,0.2\paperheight)
+		\centering
+		Let's start from a broader perspective $\rightarrow$ \textbf{electromagnetic radiation (EMR)}
+	\end{textblock*}
+	\begin{center}
+		\only<2>{\animategraphics[loop,controls,width=0.5\linewidth]{20}{E_Wave/E_wave-}{0}{35}}
+		\only<3>{\animategraphics[loop,controls,width=0.5\linewidth]{20}{EM_Wave/EM_wave-}{0}{35}}
+	\end{center}
+
+	% \only<1>{\includegraphics[width=\textwidth]{EM_wave_1}}%
+	% \only<2>{\includegraphics[width=\textwidth]{EM_wave_2}}%
+	% \only<3>{\includegraphics[width=\textwidth]{EM_wave_3}}%
+\end{frame}
+
+\begin{frame}{EM spectrum}
+	\centering
+	Light is a small portion of the EM spectrum
+	\only<1>{\includegraphics[width=\textwidth]{EM_spectrum-1.pdf}}%
+	\only<2>{\includegraphics[width=\textwidth]{EM_spectrum-2.pdf}}%
+\end{frame}
+
+\begin{frame}{Sun spectrum}
+	\centering
+	\only<1>{\includegraphics[width=\textwidth]{sun.png}}%
+	\only<2>{\includegraphics[width=0.7\textwidth]{sun.jpg}}
+\end{frame}
+\begin{frame}{Elements spectra}
+	\centering
+	\includegraphics[width=0.45\textwidth]{A-spectra-H-He-Li-Be.png}
+	\includegraphics[width=0.45\textwidth]{E-spectra-H-He-Li-Be.png}
+	\begin{textblock*}{0.05\paperwidth}(0.02\paperwidth,0.3\paperheight)
+		\centering
+		\textbf{H}
+	\end{textblock*}	
+	\begin{textblock*}{0.05\paperwidth}(0.02\paperwidth,0.43\paperheight)
+		\centering
+		\textbf{He}
+	\end{textblock*}	
+	\begin{textblock*}{0.05\paperwidth}(0.02\paperwidth,0.56\paperheight)
+		\centering
+		\textbf{Li}
+	\end{textblock*}	
+	\begin{textblock*}{0.05\paperwidth}(0.02\paperwidth,0.690\paperheight)
+		\centering
+		\textbf{Be}
+	\end{textblock*}
+	
+\end{frame}
+\begin{SectionTitle}
+	{
+	  \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Section.pdf}}
+		\begin{frame}
+			\begin{textblock*}{0.5\paperwidth}(0.25\paperwidth,0.45\paperheight)
+				\centering
+				\textbf{\LARGE ATOM}	
+			\end{textblock*}
+			\begin{textblock*}{0.5\paperwidth}(0.25\paperwidth,0.6\paperheight)
+				\centering
+				\includegraphics[width=.3\textwidth]{atomic-atom.png}
+			\end{textblock*}
+		\end{frame}
+	}
+\end{SectionTitle}
+
+
+\begin{frame}{The Rutherford–Bohr atomic model}
+	\centering
+	\only<1>{
+	\begin{textblock*}{0.5\paperwidth}(0.25\paperwidth,0.3\paperheight)
+		\centering
+		\includegraphics[width=\textwidth]{niels-ernst.png}
+		Niels Henrik David Bohr  \qquad \qquad Ernest Rutherford
+	\end{textblock*}
+	}
+	\only<2->{	
+	\begin{textblock*}{0.45\paperwidth}(0.05\paperwidth,0.2\paperheight)
+		\centering
+		\includegraphics[width=\textwidth]{bohr-atomic-model-atom.png}
+	\end{textblock*}
+	\begin{textblock*}{0.45\paperwidth}(0.55\paperwidth,0.2\paperheight)
+		\centering
+		\begin{itemize}
+			\item Protons and Neutrons form the Nucleus
+			\item Electrons orbit around 
+			\item Atom size is 100000 bigger than the Nucleus size
+		\end{itemize}
+		\vspace{0.05\textheight}
+		\textbf{Is it all?}\\
+		\vspace{0.05\textheight}
+		\only<3>{
+			\textbf{Quantum Mechanics}\\
+			\includegraphics[width=0.7\textwidth]{blog_schrodinger1.jpg}
+		}
+	\end{textblock*}
+	}
+\end{frame}
+
+\begin{frame}{The quantum mechanical atomic model}
+	\includegraphics[width=0.7\textwidth]{Atomic_orbitals.png}
+	\begin{textblock*}{0.4\paperwidth}(0.6\paperwidth,0.2\paperheight)
+		\centering
+		\includegraphics[width=\textwidth]{400px-Hydrogen_transitions.svg.png}
+	\end{textblock*}
+\end{frame}
+
+\begin{frame}{A closer look}
+	\includegraphics[width=0.6\textwidth]{H-d.png}
+	\begin{textblock*}{0.4\paperwidth}(0.58\paperwidth,0.25\paperheight)
+		\centering
+		Different isotopes of the same elements have a slightly different transition wavelenght\\
+		\vspace{0.05\textheight}
+		\only<2>{
+		Result of two different contributions from the nucleus:\\
+		\begin{itemize}
+			\item Different mass (Mass Shift)
+			\item Different size (Field Shift)
+		\end{itemize}
+		}
+	\end{textblock*}
+\end{frame}
+
+
+\begin{frame}{A closer$^2$ look}
+	\only<1>{\includegraphics[width=0.6\textwidth]{H-d.png}}
+	\only<2>{\hspace{0.1\textwidth}\includegraphics[width=0.4\textwidth]{shapes.png}}
+	\begin{textblock*}{0.4\paperwidth}(0.58\paperwidth,0.25\paperheight)
+		\centering
+		Some isotopes present a further level splitting:\\
+		\vspace{0.05\textheight}
+		\textbf{HyperFine Structure (HFS)}\\
+		\only<2>{
+		Result again of two different contributions from the nucleus:\\
+		\begin{itemize}
+			\item electrons interaction with magnetic moment of nucleus (Magnetic dipole moment)
+			\item electrons interaction with electric moment of nucleus (Electric quadrupole moent)
+		\end{itemize}
+		}
+	\end{textblock*}
+\end{frame}
+
+\begin{SectionTitle}
+	{
+		\begin{frame}
+			\begin{textblock*}{0.5\paperwidth}(0.25\paperwidth,0.45\paperheight)
+				\centering
+				\textbf{\LARGE MEASUREMENTS}	
+			\end{textblock*}
+			\begin{textblock*}{0.5\paperwidth}(0.25\paperwidth,0.6\paperheight)
+				\centering
+				\includegraphics[width=.3\textwidth]{measuring-tape-tool-svgrepo-com.pdf}
+			\end{textblock*}
+		\end{frame}
+	}
+\end{SectionTitle}
+
+
+\begin{frame}{Orders of magnitude}
+	\begin{textblock*}{0.5\paperwidth}(0.25\paperwidth,0.2\paperheight)
+		\centering
+		\textbf{Optical transition $\rightarrow$} $\sim100$~THz ($10^{14}$~Hz)\\ 
+		\vspace{0.05\textheight}
+		\textbf{Hyperfine splitting $\rightarrow$} $\sim100$~MHz ($10^{8}$~Hz)\\
+	\end{textblock*}
+	\only<2>{
+	\begin{textblock*}{0.4\paperwidth}(0.05\paperwidth,0.4\paperheight)
+		\centering
+		\includegraphics[width=0.7\textwidth]{Pub_uni.png}
+	\end{textblock*}
+	\begin{textblock*}{0.6\paperwidth}(0.4\paperwidth,0.55\paperheight)
+		\centering
+		Vihre\"{a} Haltijatar $\xleftrightarrow{1.13 km}$ Jyv\"{a}skyl\"{a}n yliopiston fysiikan laitos\\
+		We want to know this distance with a better than $\sim$1~mm precision
+	\end{textblock*}
+	}
+\end{frame}
+
+\begin{frame}{Fluorescence}
+	\begin{textblock*}{0.45\paperwidth}(0.05\paperwidth,0.3\paperheight)
+		\centering
+		\includegraphics[width=\textwidth]{fluorescence.pdf}
+		\only<1>{\vspace{0.05\textheight}\\Measurement of the number of photons as a function of the laser light wavelenght}
+		\only<2>{PROBLEM: Doppler broadening\\ 
+		\includegraphics[width=0.4\textwidth]{dopp.png}
+		}
+	\end{textblock*}
+	\begin{textblock*}{0.45\paperwidth}(0.52\paperwidth,0.3\paperheight)
+		\centering
+		\only<1>{\includegraphics[width=0.9\textwidth]{thermalbroadening-1.pdf}}
+		\only<2>{\includegraphics[width=0.9\textwidth]{thermalbroadening-2.pdf}}
+	\end{textblock*}
+	
+\end{frame}
+
+\end{document}
