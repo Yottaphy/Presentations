@@ -206,24 +206,41 @@
 \end{SectionTitle}
 
 
-\begin{frame}{Orders of magnitude}
-	\begin{textblock*}{0.5\paperwidth}(0.25\paperwidth,0.2\paperheight)
+% \begin{frame}{Orders of magnitude}
+% 	\begin{textblock*}{0.5\paperwidth}(0.25\paperwidth,0.2\paperheight)
+% 		\centering
+% 		\textbf{Optical transition $\rightarrow$} $\sim100$~THz ($10^{14}$~Hz)\\ 
+% 		\vspace{0.05\textheight}
+% 		\textbf{Hyperfine splitting $\rightarrow$} $\sim100$~MHz ($10^{8}$~Hz)\\
+% 	\end{textblock*}
+% 	\only<2>{
+% 	\begin{textblock*}{0.4\paperwidth}(0.05\paperwidth,0.4\paperheight)
+% 		\centering
+% 		\includegraphics[width=0.7\textwidth]{Pub_uni.png}
+% 	\end{textblock*}
+% 	\begin{textblock*}{0.6\paperwidth}(0.4\paperwidth,0.55\paperheight)
+% 		\centering
+% 		Vihre\"{a} Haltijatar $\xleftrightarrow{1.13 km}$ Jyv\"{a}skyl\"{a}n yliopiston fysiikan laitos\\
+% 		We want to know this distance with a better than $\sim$1~mm precision
+% 	\end{textblock*}
+% 	}
+% \end{frame}
+
+\begin{frame}{Laser}
+	
+	\begin{textblock*}{0.4\paperwidth}(0.05\paperwidth,0.2\paperheight)
 		\centering
-		\textbf{Optical transition $\rightarrow$} $\sim100$~THz ($10^{14}$~Hz)\\ 
-		\vspace{0.05\textheight}
-		\textbf{Hyperfine splitting $\rightarrow$} $\sim100$~MHz ($10^{8}$~Hz)\\
+		\includegraphics[width=0.7\textwidth,trim= {0 50cm 0 20cm},clip]{Laser}
 	\end{textblock*}
-	\only<2>{
-	\begin{textblock*}{0.4\paperwidth}(0.05\paperwidth,0.4\paperheight)
+	\begin{textblock*}{0.6\paperwidth}(0.4\paperwidth,0.4\paperheight)
 		\centering
-		\includegraphics[width=0.7\textwidth]{Pub_uni.png}
+		\textbf{L}ight \textbf{A}mplification by \textbf{S}timulated \textbf{E}mission of \textbf{R}adiation
+		\begin{itemize}
+			\item Spatial coherent
+			\item Temporal coherent
+		\end{itemize}
 	\end{textblock*}
-	\begin{textblock*}{0.6\paperwidth}(0.4\paperwidth,0.55\paperheight)
-		\centering
-		Vihre\"{a} Haltijatar $\xleftrightarrow{1.13 km}$ Jyv\"{a}skyl\"{a}n yliopiston fysiikan laitos\\
-		We want to know this distance with a better than $\sim$1~mm precision
-	\end{textblock*}
-	}
+	
 \end{frame}
 
 \begin{frame}{Fluorescence}
@@ -243,4 +260,20 @@
 	
 \end{frame}
 
+
+\begin{frame}{Collinear Laser Spectroscopy}
+	\begin{textblock*}{0.45\paperwidth}(0.05\paperwidth,0.3\paperheight)
+		\centering
+		\includegraphics[width=\textwidth]{fluorescence.pdf}
+		\only<1>{\vspace{0.05\textheight}\\Measurement of the number of photons as a function of the laser light wavelenght}
+		\only<2>{PROBLEM: Doppler broadening\\ 
+		\includegraphics[width=0.4\textwidth]{dopp.png}
+		}
+	\end{textblock*}
+	\begin{textblock*}{0.45\paperwidth}(0.52\paperwidth,0.2\paperheight)
+		\centering
+		\animategraphics[loop,controls,width=\linewidth]{20}{Yb_cls/Plot-}{1}{500}
+	\end{textblock*}
+	
+\end{frame}
 \end{document}
